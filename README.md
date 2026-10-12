@@ -1,5 +1,22 @@
 # Qt Widgets Coursework Projects
 
-A private collection of separate Qt/C++ exercises: `lab1`, `summer_practiceN1`, and `untitled6` through `untitled10`. The phonebook-like `summer_practiceN1` remains here as its primary proposed collection; the related `Sum_prN1` variant is not copied or merged.
+A set of separate C++/Qt exercises, preserved as individual projects rather than combined into one application.
 
-Project source, Qt UI forms, project files, and text examples outside generated build directories are included. Compiled output, IDE state, serialized local data/index files, and build directories are excluded. Review input files and course permissions before any public release. No builds or tests were run.
+## Projects
+
+| Directory | Overview |
+|---|---|
+| `lab1/` | Small C++ project using CMake. |
+| `summer_practiceN1/` | A Qt Widgets application with a phonebook-like interface and record-management actions. |
+| `untitled6/`–`untitled9/` | Related exercises around medicine records, dates, and text/binary file processing. Each folder has its own Qt project file. |
+| `untitled10/` | Qt Widgets interface for football-fan / World Cup data, including file loading, tables, and sorting/filtering actions. |
+
+## Requirements and launch
+
+Most projects use Qt Creator/qmake via their `.pro` files; `lab1` uses CMake. Open the project file for the specific exercise in a compatible Qt Creator installation and build it separately.
+
+Some exercises expect local input files or binary data files at runtime. Keep test data in the intended working directory; generated runtime files are not part of the repository snapshot.
+
+## Scope and limitations
+
+This repository preserves multiple coursework variants, including incomplete or unfinished areas. For example, `untitled6/med_io.h` is an empty header in the current snapshot. Build and runtime behavior has not been validated in this environment. Confirm course and resource redistribution rules before making the collection public.
