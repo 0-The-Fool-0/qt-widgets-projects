@@ -19,4 +19,4 @@ Some exercises expect local input files or binary data files at runtime. Keep te
 
 ## Scope and limitations
 
-This repository preserves multiple coursework variants, including incomplete or unfinished areas. For example, `untitled6/med_io.h` is an empty header in the current snapshot. Build and runtime behavior has not been validated in this environment. Confirm course and resource redistribution rules before making the collection public.
+This repository preserves multiple coursework variants, including incomplete or unfinished areas. For example, `untitled6/med_io.h` is an empty header in the current snapshot. The standalone `lab1` CMake target configured and built successfully with MSVC on Windows. The Qt projects were not built because Qt/qmake is not available in this environment. Confirm course and resource redistribution rules before redistribution.
