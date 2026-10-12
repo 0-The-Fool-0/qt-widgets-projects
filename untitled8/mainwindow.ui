@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1304</width>
+    <height>572</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>300</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>1071</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QListWidget" name="mb1name"/>
+       </item>
+       <item>
+        <widget class="QListWidget" name="mb1date"/>
+       </item>
+       <item>
+        <widget class="QListWidget" name="mb1section"/>
+       </item>
+       <item>
+        <widget class="QListWidget" name="mb1count"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QListWidget" name="mb2name"/>
+       </item>
+       <item>
+        <widget class="QListWidget" name="mb2date"/>
+       </item>
+       <item>
+        <widget class="QListWidget" name="mb2price"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QListWidget" name="mb3name"/>
+       </item>
+       <item>
+        <widget class="QListWidget" name="mb3date"/>
+       </item>
+       <item>
+        <widget class="QListWidget" name="mb3section"/>
+       </item>
+       <item>
+        <widget class="QListWidget" name="mb3price"/>
+       </item>
+       <item>
+        <widget class="QListWidget" name="mb3count"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>1142</x>
+      <y>200</y>
+      <width>121</width>
+      <height>67</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QPushButton" name="sort">
+       <property name="text">
+        <string>SORT ARRAYS</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pokaz">
+       <property name="text">
+        <string>Show into tables</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1304</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMENU">
+    <property name="title">
+     <string>MENU</string>
+    </property>
+    <addaction name="actionOPEN_PROGRAMM"/>
+    <addaction name="actionCLOSE_PROGRAMM"/>
+    <addaction name="actionREAD_FROM_FILE"/>
+   </widget>
+   <addaction name="menuMENU"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOPEN_PROGRAMM">
+   <property name="text">
+    <string>OPEN PROGRAMM</string>
+   </property>
+  </action>
+  <action name="actionCLOSE_PROGRAMM">
+   <property name="text">
+    <string>CLOSE PROGRAMM</string>
+   </property>
+  </action>
+  <action name="actionREAD_FROM_FILE">
+   <property name="text">
+    <string>READ FROM FILE</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
