@@ -1,3 +1,5 @@
+[Русская версия](README.ru.md)
+
 # Qt Widgets Coursework Projects
 
 A set of separate C++/Qt exercises, preserved as individual projects rather than combined into one application.
